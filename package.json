@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-benjie",
+  "version": "0.0.1",
+  "description": "Benjie's ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "postinstall": "echo 'To install eslint-config-benjieʼs dependencies, run: npx install-peerdeps --dev eslint-config-benjie'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjie/eslint-config-benjie.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "benjie",
+    "config",
+    "preset",
+    "graphile"
+  ],
+  "author": "Benjie Gillam <code@benjiegillam.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjie/eslint-config-benjie/issues"
+  },
+  "homepage": "https://github.com/benjie/eslint-config-benjie#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "eslint": ">= 6",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-graphql": "^3.0.3",
+    "eslint-plugin-jest": "^23.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "eslint_d": "^8.0.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
+  }
+}
